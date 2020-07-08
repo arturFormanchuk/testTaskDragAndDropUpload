@@ -52,7 +52,7 @@ function validateImage(image) {
     return false;
   }
 
-  const maxSizeInBytes = 10e6; // 10MB
+  const maxSizeInBytes = 10e6;
   if (image.size > maxSizeInBytes) {
     alert("File too large");
     return false;
